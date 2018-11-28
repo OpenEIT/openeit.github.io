@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'openeit'
+project = 'OpenEIT'
 copyright = '2018, Jean Rintoul'
 author = 'Jean Rintoul'
 
