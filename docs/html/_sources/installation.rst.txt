@@ -6,7 +6,7 @@ Step 1: Install the Software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you have OSX you can run a simple installer by downloading the following DMG then double click to install it as an application. 
 
-:download:`download the OpenEIT Installer for OSX <https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim>`
+:download:`download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`
 
 
 If you are not running OSX, you should go through the readme here: 

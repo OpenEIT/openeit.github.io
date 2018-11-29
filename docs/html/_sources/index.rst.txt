@@ -12,7 +12,7 @@ Project Write Up
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:download:`download OpenEITInstaller for OSX <https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim>`
+:download:`download OpenEITInstaller for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`
 
 
 Guide
