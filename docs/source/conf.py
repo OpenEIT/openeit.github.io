@@ -89,7 +89,7 @@ pygments_style = None
 #     "project_nav_name": "Open EIT",
 # }
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'classic'
 # pip install sphinx_rtd_theme
 # pip install sphinx_bootstrap_theme
 # pip install guzzle_sphinx_theme
