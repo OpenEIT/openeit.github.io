@@ -4,18 +4,25 @@ Documentation and Tutorial for OpenEIT
 Another simple header
 =====================
 
-Here is some complex stuff.
+This is a simple example::
+
+    import math
+    print 'import done'
     print(hello)
     >> hello 
+
+`<http://www.python.org/>`_
 
 Guide
 ^^^^^
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
+   introduction
+   installation
    license
    help
 
