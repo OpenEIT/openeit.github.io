@@ -8,6 +8,7 @@ If you have OSX you can run a simple installer by downloading the following DMG 
 
 :download:`download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`
 
+`<https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
 
 If you are not running OSX, you should go through the readme here: 
 `<https://github.com/OpenEIT/OpenEIT>`_

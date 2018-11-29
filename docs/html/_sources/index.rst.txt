@@ -14,6 +14,7 @@ Install the Software
 
 :download:`download OpenEITInstaller for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`
 
+`<https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
 
 Guide
 ^^^^^
