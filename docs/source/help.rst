@@ -5,4 +5,3 @@ If you need help just read through the tutorials and readme files. If your quest
 
 `<https://www.mindseyebiomedical.com>`_
 
-or emailing jean@mindseyebiomedical.com
