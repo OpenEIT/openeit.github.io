@@ -12,9 +12,14 @@ Project Write Up
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:download:`download OpenEITInstaller for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`
+`download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
 
-`<https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
+
+Join the Community Discussion List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`mailing list <https://groups.google.com/group/OpenBiomedicalImaging/boxsubscribe>`_
+
 
 Guide
 ^^^^^
