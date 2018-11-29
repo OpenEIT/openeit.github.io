@@ -81,7 +81,13 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-install-the-software">Step 1: Install the Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-device-set-up">Step 2: Device Set Up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-gather-data-and-experiment">Step 3: Gather Data and Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#congratulations">Congratulations!</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">HELP</a></li>
 </ul>
@@ -150,12 +156,37 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p>How do you install it? Why you follow these steps.</p>
-<ul class="simple">
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-</ul>
+<div class="section" id="step-1-install-the-software">
+<h2>Step 1: Install the Software<a class="headerlink" href="#step-1-install-the-software" title="Permalink to this headline">¶</a></h2>
+<p>If you have OSX you can run a simple installer by downloading the following DMG then double click to install it as an application.</p>
+<p><a class="reference download external" download="" href="https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim"><code class="xref download docutils literal notranslate"><span class="pre">download</span> <span class="pre">the</span> <span class="pre">OpenEIT</span> <span class="pre">Installer</span> <span class="pre">for</span> <span class="pre">OSX</span></code></a></p>
+<p>If you are not running OSX, you should go through the readme here:
+<a class="reference external" href="https://github.com/OpenEIT/OpenEIT">https://github.com/OpenEIT/OpenEIT</a></p>
+<p>You will need to use git to clone the above repository, then run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>To run the app go to the root directory and then type:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">app</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>This will start a server which can be viewed in any web browser, making it very cross-compatible with any operating system.</p>
+<p>Congratulations! You should see the software running and it will look like this.</p>
+</div>
+<div class="section" id="step-2-device-set-up">
+<h2>Step 2: Device Set Up<a class="headerlink" href="#step-2-device-set-up" title="Permalink to this headline">¶</a></h2>
+<p>Press the ‘ON’ button on your EIT device. Make sure that you’ve charged the battery first. You can also put some water in tank, just enough so that the electrodes are under water.</p>
+</div>
+<div class="section" id="step-3-gather-data-and-experiment">
+<h2>Step 3: Gather Data and Experiment<a class="headerlink" href="#step-3-gather-data-and-experiment" title="Permalink to this headline">¶</a></h2>
+<p>You should see the bluetooth device appear in the dropdown menu in the software and hit connect. If there is any problem, restart both the device and the software to refresh.</p>
+<p>Once you are connected you can do electical impedance image reconstructions. Just go to the reconstruction tab and then move an object around the tank. You should see the outline of the image being reconstructed. You can try different numbers of electrodes, baselining the image to change the scale, or any of the other sections.</p>
+</div>
+<div class="section" id="congratulations">
+<h2>Congratulations!<a class="headerlink" href="#congratulations" title="Permalink to this headline">¶</a></h2>
+<p>You have done your first biomedical imaging experiment! This is the same method used in multi-million dollar CATSCANS, except without any harmful radiation, and can be used to see difference over time of any conductive body. Let’s try some other tutorials.</p>
+<p>As you go further you are welcome to edit the code, and improve upon what is already here. You can find issues listed in the github respository, or submit pull requests with your updates. We love hearing feedback about interesting experiments and applications people are investigating, so please feel free to email: <a class="reference external" href="mailto:jean&#37;&#52;&#48;mindseyebiomedical&#46;com">jean<span>&#64;</span>mindseyebiomedical<span>&#46;</span>com</a></p>
+</div>
 </div>
 
 

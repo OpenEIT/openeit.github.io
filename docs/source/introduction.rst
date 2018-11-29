@@ -1,3 +1,4 @@
 Introduction
 ============
-Electrical Impedance Tomography is a relatively inexpensive technology for seeing inside the body, that could easily be mass produced. The temptation to make biomedical imaging easily accessible was just too overwhelming, and OpenEIT came into existence. 
+
+Biomedical Imaging has previously been expensive and near impossible to hack and experiment with. If more people experimented and understood how imaging works we could move it forward much faster and make these transformative technologies available to everyome. OpenEIT(EIT is for electrical impedance tomography) uses non-ionizing AC current to recreate an image of any conductive material, such as your lungs, arm or head, using the same tomographic reconstruction technique as a cat scan. The PCB is only 2" square, with bluetooth, making it a portable and hackable way to do biomedical imaging!

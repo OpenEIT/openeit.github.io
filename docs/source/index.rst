@@ -1,19 +1,19 @@
 Documentation and Tutorial for OpenEIT
 ======================================
 
-Another simple header
-=====================
 
-This is a simple example::
 
-    import math
-    print 'import done'
-    print(hello)
-    >> hello 
+Project Write Up 
+^^^^^^^^^^^^^^^^^
 
-`<http://www.python.org/>`_
+`<https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
 
-:download:`download OpenEITInstaller <https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim>`
+
+Install the Software 
+^^^^^^^^^^^^^^^^^^^^^^
+
+:download:`download OpenEITInstaller for OSX <https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim>`
+
 
 Guide
 ^^^^^
