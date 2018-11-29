@@ -13,6 +13,8 @@ This is a simple example::
 
 `<http://www.python.org/>`_
 
+:download:`download OpenEITInstaller <https://drive.google.com/open?id=1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim>`
+
 Guide
 ^^^^^
 
