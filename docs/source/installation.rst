@@ -10,13 +10,20 @@ If you have OSX you can run a simple installer by downloading the following DMG 
 If you are not running OSX or wish to tinker with the code, you will need to install the python modules by following the directions in the readme here: 
 `<https://github.com/OpenEIT/OpenEIT>`_
 
-Congratulations! You should see the software running and it will look like this. 
+Congratulations! You should see the software running and it will look like this:
+
+.. image:: ./images/software.png
+  :width: 500
+  :alt: Dashboard Screenshot
 
 Step 2: Device Set Up
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Press the 'ON' button on your EIT device. Make sure that you've charged the battery first. You can also put some water in tank, just enough so that the electrodes are under water. 
 
+.. image:: ./images/spectra_kit_with_fruit.jpg
+  :width: 300
+  :alt: Dashboard Screenshot
 
 Step 3: Gather Data and Experiment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -24,6 +31,9 @@ You should see the bluetooth device appear in the dropdown menu in the software 
 
 Once you are connected you can do electical impedance image reconstructions. Just go to the reconstruction tab and then move an object around the tank. You should see the outline of the image being reconstructed. You can try different numbers of electrodes, baselining the image to change the scale, time series data for looking at impedance based changes in cells, spectroscopy to see dielectric spectrums and more. 
 
+.. image:: ./images/picturegrid.png
+  :width: 400
+  :alt: Rotating Item and Recreating an Image
 
 Congratulations! 
 ^^^^^^^^^^^^^^^^
