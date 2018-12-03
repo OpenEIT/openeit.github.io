@@ -7,7 +7,6 @@ Project Description
 
 `<https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
 
-
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
 

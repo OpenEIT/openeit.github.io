@@ -88,23 +88,53 @@ pygments_style = None
 #     # Set the name of the project to appear in the sidebar
 #     "project_nav_name": "Open EIT",
 # }
-#html_theme = 'classic'
+
+# At the top.
+import sphinx_bootstrap_theme
+
+# ...
+
+# Activate the theme.
+#html_theme = 'default'
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = ["_themes", ]
+
 html_theme_options = {
-    'canonical_url': '',
-    'analytics_id': '',
-    'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    #'vcs_pageview_mode': '',
-    # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+'canonical_url': '',
+'analytics_id': '',
+'logo_only': False,
+'display_version': True,
+'prev_next_buttons_location': 'bottom',
+'style_external_links': False,
+#'vcs_pageview_mode': '',
+# Toc options
+'collapse_navigation': True,
+'sticky_navigation': True,
+'navigation_depth': 4,
+'includehidden': True,
+'titles_only': False
 }
+
+
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
+# html_theme = 'basic'
+# # 
+# html_theme_options = {
+#     'canonical_url': '',
+#     'analytics_id': '',
+#     'logo_only': False,
+#     'display_version': True,
+#     'prev_next_buttons_location': 'bottom',
+#     'style_external_links': False,
+#     #'vcs_pageview_mode': '',
+#     # Toc options
+#     'collapse_navigation': True,
+#     'sticky_navigation': True,
+#     'navigation_depth': 4,
+#     'includehidden': True,
+#     'titles_only': False
+# }
 
 
 # pip install sphinx_rtd_theme
