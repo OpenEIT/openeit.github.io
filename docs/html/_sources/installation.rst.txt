@@ -40,4 +40,4 @@ Congratulations!
 
 You have done your first biomedical imaging experiment! This is the same method used in multi-million dollar CATSCANS, except without any harmful radiation, and can be used to see difference over time of any conductive body. Let's try some more tutorials next to get more ideas of what you can do with it. 
 
-As you go further you are welcome to edit the code, and improve upon what is already here. You can find issues listed in the github respository, or submit pull requests with your updates. We love hearing feedback about interesting experiments and applications people are investigating, so please feel free to email: jean@mindseyebiomedical.com
+As you go further you are welcome to edit the code, and improve upon what is already here. You can find issues listed in the github respository, or submit pull requests with your updates. We love hearing feedback about interesting experiments and applications people are investigating, so please feel free to email: contact@mindseyebiomedical.com
