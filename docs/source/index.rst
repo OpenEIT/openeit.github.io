@@ -5,7 +5,6 @@ Documentation and Tutorials for OpenEIT
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
 
-
 `<https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
 
 
@@ -19,6 +18,8 @@ Join the Community Discussion List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `mailing list <https://groups.google.com/group/OpenBiomedicalImaging/boxsubscribe>`_
+
+
 
 .. image:: ./images/LungscomparedtoCTScan.png
   :width: 400
