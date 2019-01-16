@@ -1,6 +1,12 @@
 Documentation and Tutorials for OpenEIT
 ========================================
 
+Crowdfunding Campaign for the Spectra EIT kit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Support this effort by getting your own kit! 
+
+`<https://www.crowdsupply.com/mindseye-biomedical/spectra>`_
 
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
@@ -12,11 +18,14 @@ Install the Software
 
 `download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
 
+Or click on the detailed installation instructions on the left menu bar which gives instructions applicable for OSX, Windows and Linux. 
 
-Join the Community Discussion List
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Join the Community Technical Discussion List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`mailing list <https://groups.google.com/group/OpenBiomedicalImaging/boxsubscribe>`_
+Ask questions, or talk with others about ideas you might want to try. 
+
+`Mailing List <https://groups.google.com/group/OpenBiomedicalImaging/boxsubscribe>`_
 
 
 
