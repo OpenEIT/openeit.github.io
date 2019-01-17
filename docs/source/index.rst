@@ -18,7 +18,7 @@ Install the Software
 
 `download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
 
-Or click on the left menu where it says 'installation' to get detailed instructions applicable for OSX, Windows and Linux. 
+Or click on the left menu where it says 'installation' to get detailed instructions applicable to OSX, Windows and Linux. 
 
 Join the Community Technical Discussion List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
