@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; OpenEIT 1.0.0 documentation</title>
+  <title>Tutorial 3 - EIT Algorithms &mdash; OpenEIT 1.0.0 documentation</title>
   
 
   
@@ -27,8 +26,10 @@
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="LICENSE" href="license.html" />
+    <link rel="prev" title="Tutorial 2 - Bioimpedance Spectroscopy" href="tutorial2-bioimpedancespectroscopy.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -78,12 +79,16 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorial1-timeseries.html">Tutorial 1 - Time Series</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorial2-bioimpedancespectroscopy.html">Tutorial 2 - Bioimpedance Spectroscopy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial3-eitalgorithms.html">Tutorial 3 - EIT Algorithms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial 3 - EIT Algorithms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-algorithm-overview">Step 1: Algorithm Overview</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">HELP</a></li>
 </ul>
@@ -131,12 +136,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Index</li>
+      <li>Tutorial 3 - EIT Algorithms</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/tutorial3-eitalgorithms.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -148,11 +155,23 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="tutorial-3-eit-algorithms">
+<h1>Tutorial 3 - EIT Algorithms<a class="headerlink" href="#tutorial-3-eit-algorithms" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction:<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Electrical Impedance Tomography results can be highly varied and depends on a few basic things like the number of electrodes you are using, the order of measurements(adjacent versus opposition method), how you baseline the data, and of course which algorithm you use. In this tutorial we will discuss how you can tune and modify all of these parameters to get the best results possible.</p>
+</div>
+<div class="section" id="step-1-algorithm-overview">
+<h2>Step 1: Algorithm Overview<a class="headerlink" href="#step-1-algorithm-overview" title="Permalink to this headline">¶</a></h2>
+<p>There are three algorithms in this project - Graz Consensus, Gauss-Newton or the Jacobian method, and Back Projection. Each has it’s own pros and cons and can be tuned.</p>
+<p>This tutorial is in not yet finished!</p>
+<a class="reference internal image-reference" href="_images/EIT_Description.png"><img alt="32 electrode EIT" src="_images/EIT_Description.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/eit32.jpeg"><img alt="32 electrode EIT" src="_images/eit32.jpeg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/software.png"><img alt="Software View" src="_images/software.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/gestures.png"><img alt="32 electrode EIT" src="_images/gestures.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/picturegrid.png"><img alt="32 electrode EIT" src="_images/picturegrid.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/LungscomparedtoCTScan.png"><img alt="32 electrode EIT" src="_images/LungscomparedtoCTScan.png" style="width: 400px;" /></a>
+</div>
 </div>
 
 
@@ -160,6 +179,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="license.html" class="btn btn-neutral float-right" title="LICENSE" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tutorial2-bioimpedancespectroscopy.html" class="btn btn-neutral" title="Tutorial 2 - Bioimpedance Spectroscopy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

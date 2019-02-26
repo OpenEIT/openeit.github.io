@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation &mdash; OpenEIT 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OpenEIT
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">HELP</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OpenEIT</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/tutorial_1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="step-1-install-the-software">
+<h2>Step 1: Install the Software<a class="headerlink" href="#step-1-install-the-software" title="Permalink to this headline">¶</a></h2>
+<p>If you have OSX you can run a simple installer by downloading the following DMG then double click to install it as an application.</p>
+<p><a class="reference external" href="https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing">download the OpenEIT Installer for OSX</a></p>
+<p>If you are not running OSX or wish to tinker with the code, you will need to install the python modules by following the directions in the readme here:
+<a class="reference external" href="https://github.com/OpenEIT/OpenEIT">https://github.com/OpenEIT/OpenEIT</a></p>
+<p>Congratulations! You should see the software running and it will look like this:</p>
+<a class="reference internal image-reference" href="_images/software.png"><img alt="Dashboard Screenshot" src="_images/software.png" style="width: 500px;" /></a>
+</div>
+<div class="section" id="step-2-device-set-up">
+<h2>Step 2: Device Set Up<a class="headerlink" href="#step-2-device-set-up" title="Permalink to this headline">¶</a></h2>
+<p>Press the ‘ON’ button on your EIT device. Make sure that you’ve charged the battery first. You can also put some water in tank, just enough so that the electrodes are under water.</p>
+<a class="reference internal image-reference" href="_images/spectra_kit_with_fruit.jpg"><img alt="Dashboard Screenshot" src="_images/spectra_kit_with_fruit.jpg" style="width: 300px;" /></a>
+</div>
+<div class="section" id="step-3-gather-data-and-experiment">
+<h2>Step 3: Gather Data and Experiment<a class="headerlink" href="#step-3-gather-data-and-experiment" title="Permalink to this headline">¶</a></h2>
+<p>You should see the bluetooth device appear in the dropdown menu in the software and hit connect. If there is any problem, restart both the device and the software to refresh.</p>
+<p>Once you are connected you can do electical impedance image reconstructions. Just go to the reconstruction tab and then move an object around the tank. You should see the outline of the image being reconstructed. You can try different numbers of electrodes, baselining the image to change the scale, time series data for looking at impedance based changes in cells, spectroscopy to see dielectric spectrums and more.</p>
+<a class="reference internal image-reference" href="_images/picturegrid.png"><img alt="Rotating Item and Recreating an Image" src="_images/picturegrid.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="congratulations">
+<h2>Congratulations!<a class="headerlink" href="#congratulations" title="Permalink to this headline">¶</a></h2>
+<p>You have done your first biomedical imaging experiment! This is the same method used in multi-million dollar CATSCANS, except without any harmful radiation, and can be used to see difference over time of any conductive body. Let’s try some more tutorials next to get more ideas of what you can do with it.</p>
+<p>As you go further you are welcome to edit the code, and improve upon what is already here. You can find issues listed in the github respository, or submit pull requests with your updates. We love hearing feedback about interesting experiments and applications people are investigating, so please feel free to email: <a class="reference external" href="mailto:contact&#37;&#52;&#48;mindseyebiomedical&#46;com">contact<span>&#64;</span>mindseyebiomedical<span>&#46;</span>com</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Jean Rintoul
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

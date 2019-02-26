@@ -47,8 +47,6 @@ Ask questions, or talk with others about ideas you might want to try.
   :alt: Rotating Item and Recreating an Image
 
 
-
-
 Guide
 ^^^^^
 
@@ -59,6 +57,9 @@ Guide
 
    introduction
    installation
+   tutorial1-timeseries
+   tutorial2-bioimpedancespectroscopy
+   tutorial3-eitalgorithms
    license
    help
 

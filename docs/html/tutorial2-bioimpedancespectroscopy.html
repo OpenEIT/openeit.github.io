@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tutorial 2 - Bioimpedance Spectroscopy &mdash; OpenEIT 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Tutorial 3 - EIT Algorithms" href="tutorial3-eitalgorithms.html" />
+    <link rel="prev" title="Tutorial 1 - Time Series" href="tutorial1-timeseries.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> OpenEIT
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial1-timeseries.html">Tutorial 1 - Time Series</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial 2 - Bioimpedance Spectroscopy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-device-set-up">Step 1: Device Set Up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-attachment">Step 2: Attachment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-gather-data-and-experiment">Step 3: Gather Data and Experiment!</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial3-eitalgorithms.html">Tutorial 3 - EIT Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">HELP</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OpenEIT</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Tutorial 2 - Bioimpedance Spectroscopy</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/tutorial2-bioimpedancespectroscopy.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tutorial-2-bioimpedance-spectroscopy">
+<h1>Tutorial 2 - Bioimpedance Spectroscopy<a class="headerlink" href="#tutorial-2-bioimpedance-spectroscopy" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction:<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Bioimpedance Spectroscopy is similar to the time series measurement in how it is setup, but instead of measuring at a single frequency we ramp between 80Hz and 80Khz to get different frequency responses for different materials. This is useful if you want to distinguish between types of material between the electrodes.</p>
+</div>
+<div class="section" id="step-1-device-set-up">
+<h2>Step 1: Device Set Up<a class="headerlink" href="#step-1-device-set-up" title="Permalink to this headline">¶</a></h2>
+<p>For bioimpedance spectroscopy measurement we skip the multiplexer section of the board and just run from the headers. Below is a diagram showing where to plug you 0.1” cable into.</p>
+<a class="reference internal image-reference" href="_images/timeseries_setup.png"><img alt="Time Series Device Set Up" src="_images/timeseries_setup.png" style="width: 400px;" /></a>
+<p>Once you are plugged in, make sure you have some electrodes on the other end of your cable. I recommend gold plated electrodes, and in general everything usually works better with electrode gel. If you want a dry connection you should try it(often this is great for large signals) but if you want to measure something more subtle give an conductive gel connection a go to make sure you are getting the most information you can out of the device.</p>
+<a class="reference internal image-reference" href="_images/time_series_after_setup.png"><img alt="Time Series After Set Up" src="_images/time_series_after_setup.png" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="_images/time_series_aftersetup.png"><img alt="Time Series After Set Up" src="_images/time_series_aftersetup.png" style="width: 200px;" /></a>
+</div>
+<div class="section" id="step-2-attachment">
+<h2>Step 2: Attachment<a class="headerlink" href="#step-2-attachment" title="Permalink to this headline">¶</a></h2>
+<p>This is going to depend on what area you are interested in measuring, but the theory that the current should pass through the object of interest so the send electrodes(A+,A- should be on one side, and the sense electrode V+,V- on the other). Try putting the send electrodes at a greater distance appart than the sense one which are ideally located near the part you are interested in measuring.</p>
+<a class="reference internal image-reference" href="_images/bioimpedance_spectroscopy_mode.jpg"><img alt="Fruit spectrums" src="_images/bioimpedance_spectroscopy_mode.jpg" style="width: 500px;" /></a>
+</div>
+<div class="section" id="step-3-gather-data-and-experiment">
+<h2>Step 3: Gather Data and Experiment!<a class="headerlink" href="#step-3-gather-data-and-experiment" title="Permalink to this headline">¶</a></h2>
+<p>Press the ‘ON’ button on your EIT device. Make sure that you’ve charged the battery first. Start the software that you installed by following the installation section of this document. You should see the bluetooth device appear in the dropdown menu in the software and hit connect. If there is any problem, restart both the device and the software to refresh.</p>
+<p>Now the important part - on the Control screen type ‘B’ in the box to send data and hit send, this will switch it into bioimpedance data collection mode. Now simply click on the bioimpedance tab of the software, and you should see your data.</p>
+<a class="reference internal image-reference" href="_images/bioimpedance_spectroscopy_software.png"><img alt="Impedance Spectroscopy" src="_images/bioimpedance_spectroscopy_software.png" style="width: 600px;" /></a>
+<p>You will see the spectrum and can easily record it by hitting the record button.</p>
+<a class="reference internal image-reference" href="_images/bioimpedance_spectroscopy_apples_vs_oranges.png"><img alt="Impedance Spectroscopy" src="_images/bioimpedance_spectroscopy_apples_vs_oranges.png" style="width: 500px;" /></a>
+<p>The example above is using fruit. You can see each fruit has a slightly different dielectric spectrum, but you could just as easily replace fruit with your arm or other part of your body. Below shows a simple classification algorithm being run based on obtain spectrums and doing EIT at the same time. It’s interesting as you can see where particular materials are located in the water bath.</p>
+<a class="reference internal image-reference" href="_images/multifrequency_material_separation.png"><img alt="Impedance Spectroscopy" src="_images/multifrequency_material_separation.png" style="width: 500px;" /></a>
+<p>Congratulations! You can now do this on any conductive material you want to see the spectrum of.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tutorial3-eitalgorithms.html" class="btn btn-neutral float-right" title="Tutorial 3 - EIT Algorithms" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tutorial1-timeseries.html" class="btn btn-neutral" title="Tutorial 1 - Time Series" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Jean Rintoul
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
