@@ -8,16 +8,23 @@ Support this effort by getting your own kit!
 
 `<https://www.crowdsupply.com/mindseye-biomedical/spectra>`_
 
-.. image:: ./images/spectra_rotated.jpg
+.. image:: ./images/spectra-whitebackground.png
   :height: 250
   :align: center
   :alt: Spectra Kit
 
 
+
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
 
-`<https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
+`Hackaday Project write up <https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
+
+
+`Talk at 34C3 <https://media.ccc.de/v/34c3-8948-low_cost_non-invasive_biomedical_imaging>`_
+
+
+`Talk at Hackaday Superconference <https://hackaday.com/2019/01/07/towards-low-cost-biomedical-imaging/>`_
 
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
