@@ -14,7 +14,6 @@ Support this effort by getting your own kit!
   :alt: Spectra Kit
 
 
-
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -25,6 +24,9 @@ Project Description
 
 
 `Talk at Hackaday Superconference <https://hackaday.com/2019/01/07/towards-low-cost-biomedical-imaging/>`_
+
+`NeurotechX Webinar <https://youtu.be/wUPrBr_ZqGQ>`_
+
 
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
