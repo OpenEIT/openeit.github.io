@@ -22,11 +22,11 @@ Project Description
 
 `Talk at 34C3 <https://media.ccc.de/v/34c3-8948-low_cost_non-invasive_biomedical_imaging>`_
 
-
 `Talk at Hackaday Superconference <https://hackaday.com/2019/01/07/towards-low-cost-biomedical-imaging/>`_
 
 `NeurotechX Webinar <https://youtu.be/wUPrBr_ZqGQ>`_
 
+`IEEE Brain Poster <./images/poster.png>`_
 
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
