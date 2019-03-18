@@ -26,7 +26,7 @@ Project Description
 
 `NeurotechX Webinar <https://youtu.be/wUPrBr_ZqGQ>`_
 
-`IEEE Brain Poster <https://openeit.github.io/docs/html/images/poster.png>`_
+`IEEE Brain Poster <https://openeit.github.io/docs/html/_images/poster.png>`_
 
 .. image:: ./images/poster.png
   :height: 250
