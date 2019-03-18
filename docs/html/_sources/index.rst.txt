@@ -16,9 +16,9 @@ Support this effort by getting your own kit!
 
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
+`IEEE Brain Poster <https://openeit.github.io/docs/html/_images/poster.png>`_
 
 `Hackaday Project write up <https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
-
 
 `Talk at 34C3 <https://media.ccc.de/v/34c3-8948-low_cost_non-invasive_biomedical_imaging>`_
 
@@ -26,12 +26,7 @@ Project Description
 
 `NeurotechX Webinar <https://youtu.be/wUPrBr_ZqGQ>`_
 
-`IEEE Brain Poster <https://openeit.github.io/docs/html/_images/poster.png>`_
 
-.. image:: ./images/poster.png
-  :height: 250
-  :align: center
-  :alt: IEEE Brain Poster
 
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
