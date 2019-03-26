@@ -31,7 +31,7 @@ Project Description
 Install the Software 
 ^^^^^^^^^^^^^^^^^^^^^^
 
-`download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
+`download the OpenEIT Installer for OSX <https://github.com/OpenEIT/OpenEIT/releases/download/v1.0/OpenEIT-1.0.0.dmg>`_
 
 Or click on the left menu where it says 'installation' to get detailed instructions applicable to OSX, Windows and Linux. 
 

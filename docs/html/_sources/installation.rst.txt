@@ -5,7 +5,7 @@ Step 1: Install the Software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you have OSX you can run a simple installer by downloading the following DMG then double click to install it as an application. 
 
-`download the OpenEIT Installer for OSX <https://drive.google.com/file/d/1HyXHlD_yWJ59-XPO1OVrtmmT3S0sozim/view?usp=sharing>`_
+`download the OpenEIT Installer for OSX <https://github.com/OpenEIT/OpenEIT/releases/download/v1.0/OpenEIT-1.0.0.dmg>`_
 
 If you are not running OSX or wish to tinker with the code, you will need to install the python modules by following the directions in the readme here: 
 `<https://github.com/OpenEIT/OpenEIT>`_
