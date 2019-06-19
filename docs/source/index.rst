@@ -13,6 +13,14 @@ Support this effort by getting your own kit!
   :align: center
   :alt: Spectra Kit
 
+Donate!
+^^^^^^^^^
+This project took lots of time and effort. If you'd like to see it maintained and a next revision come out, we'd love and need your support! Imagine a world where everyone had access to medical imaging! You can make a difference - every little bit counts. 
+
+.. raw:: html
+  :file: donatebutton.html
+
+
 
 Project Description 
 ^^^^^^^^^^^^^^^^^^^^
@@ -69,6 +77,7 @@ Guide
    tutorial1-timeseries
    tutorial2-bioimpedancespectroscopy
    tutorial3-eitalgorithms
+   faq
    license
    help
 
