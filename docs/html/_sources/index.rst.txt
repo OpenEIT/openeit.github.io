@@ -6,7 +6,7 @@ Crowdfunding Campaign for the Spectra EIT kit
 
 Support this effort by getting your own kit! 
 
-`<https://www.crowdsupply.com/mindseye-biomedical/spectra>`_
+`<https://mindseyebiomedical.com/>`_
 
 .. image:: ./images/spectra-whitebackground.png
   :height: 250
