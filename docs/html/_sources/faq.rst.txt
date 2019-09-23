@@ -15,7 +15,7 @@ Question 2:
 ^^^^^^^^^^^^^^    
 **I wish to run it with a battery - how do I do that?**
 
-A battery will fit perfectly within the case, and should be connected to the white connecter. `Here is a link to purchase the perfect size lithium ion battery which will fit perfectly into the connector <https://www.mouser.com/ProductDetail/SparkFun/PRT-13854?qs=%2Fha2pyFaduhhffVdrtA13QFmgMgxqz4D6Ok5h%2FDT9uAKN5KRgjnjIA%3D%3D>`_ 
+The following battery will fit perfectly within the case, and should be connected to the white connecter. `Link to battery here <https://www.mouser.com/ProductDetail/SparkFun/PRT-13854?qs=%2Fha2pyFaduhhffVdrtA13QFmgMgxqz4D6Ok5h%2FDT9uAKN5KRgjnjIA%3D%3D>`_ 
 
 Question 3: 
 ^^^^^^^^^^^^^^  
