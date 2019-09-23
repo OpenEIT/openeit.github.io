@@ -17,7 +17,9 @@ For more detail on pyEIT start with the readme here - `<https://github.com/OpenE
 For more detail on EIDORS and tutorials see - `<http://eidors3d.sourceforge.net/tutorial/tutorial.shtml>`_   
 
 A couple of things this project would really benefit from if you felt like contributing are: 
+
 1. a data file exchange format to import data from Spectra into EIDORS directly(should be doable but maintainer does not own Matlab currently to do this). 
+
 2. A D-Bar algorithm implementation in python, potentially added to pyEIT. Here is a link to the matlab code and documentation for it - `<https://blog.fips.fi/tomography/eit/the-d-bar-method-for-electrical-impedance-tomography-simulated-data/ >`_   
 
 
