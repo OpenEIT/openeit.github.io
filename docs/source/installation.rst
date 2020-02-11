@@ -1,6 +1,13 @@
 Installation
 =============
 
+Below are both text/picture based installation directions and a video which takes the user from receiving and unpackaging a Spectra EIT and Bioimpedance device through to EIT image reconstructions. 
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ssm7BgsbbWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Step 1: Install the Software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you have OSX you can run a simple installer by downloading the following DMG then double click to install it as an application. 

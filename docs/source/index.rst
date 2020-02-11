@@ -1,7 +1,7 @@
 Documentation and Tutorials for OpenEIT
 ========================================
 
-Crowdfunding Campaign for the Spectra EIT kit
+Buy a Spectra EIT kit!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Support this effort by getting your own kit! 
@@ -22,19 +22,25 @@ This project took lots of time and effort. If you'd like to see it maintained an
 
 
 
-Project Description 
-^^^^^^^^^^^^^^^^^^^^
-`IEEE Brain Poster <https://openeit.github.io/docs/html/_images/poster.png>`_
+Project Presentations 
+^^^^^^^^^^^^^^^^^^^^^^
+Have a listen to the Amp Hour Podcast for a pleasant conversational piece on the project.
+
+`Amp Hour Podcast <https://theamphour.com/448-an-interview-with-jean-rintoul/>`_
 
 `Hackaday Project write up <https://hackaday.io/project/159737-spectra-open-biomedical-imaging>`_
 
 `Hackaday Blog Post <https://hackaday.com/2019/04/06/tomography-through-an-infinite-grid-of-resistors/>`_
 
-`Amp Hour Podcast <https://theamphour.com/448-an-interview-with-jean-rintoul/>`_
+`IEEE Brain Poster <https://openeit.github.io/docs/html/_images/poster.png>`_
 
 `Talk at 34C3 <https://media.ccc.de/v/34c3-8948-low_cost_non-invasive_biomedical_imaging>`_
 
+`Talk at DEFCON 2019 Biohacking Village <https://www.youtube.com/watch?v=gzMQWzYwJrs>`_
+
 `Talk at Hackaday Superconference <https://hackaday.com/2019/01/07/towards-low-cost-biomedical-imaging/>`_
+
+`Talk at HDDG35 <https://www.youtube.com/watch?v=bbg2i7uiquA>`_
 
 `NeurotechX Webinar <https://youtu.be/wUPrBr_ZqGQ>`_
 
